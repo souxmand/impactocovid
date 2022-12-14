@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 * {
   margin: 0;
@@ -51,9 +51,9 @@ a:hover {
 
 body {
   margin: 0;
-  background-color: #202124;
-  color: #ffffff;
-  font-family: "IBM Plex Serif", serif;
+  background-color: #b7e1ff;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -79,7 +79,7 @@ button {
 .fatec-content-text {
   font-size: 1rem;
   margin-bottom: 1.2rem;
-  color: #e6e6e6;
+  color: #000000;
 }
 
 #header {
@@ -103,6 +103,7 @@ button {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 0.8rem;
   background-color: #000000;
+  color: white;
 }
 
 .header-logo {
@@ -110,10 +111,10 @@ button {
 }
 
 .fatec-background-image {
-  height: 30vh;
+  height: 40vh;
   margin-top: 13vh;
   border: 2px solid #232323;
-  background-image: url("./Images/background.jpg");
+  background-image: url("./Images/fundoback.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,4 +142,10 @@ button {
   width: 30%;
   margin-top: 2rem;
   border-radius: 50%;
+}
+
+
+.content-fatec{
+  width: 100%;
+ margin: 20px;
 }
